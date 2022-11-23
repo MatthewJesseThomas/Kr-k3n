@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+kraken-client/node_modules
+kraken-client/.pnp
+kraken-client/.pnp.js
+
+# testing
+kraken-server/s3
+
+# production
+kraken-client/build
+kraken-server/build
+kraken-client/dist
+
+# misc
+.DS_Store
+.env.local
+.env.production.local
+
+# history
+.history
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
